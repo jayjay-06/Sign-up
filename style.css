@@ -58,12 +58,17 @@ input[type=text],[type=email],[type=password]{
     box-sizing: border-box;
   }
   
+input:invalid {
+    border: 1px solid #ff0202;
+}
+
   button {
     width: 100%;
     background-image: linear-gradient(150deg,rgb(205, 118, 255),rgba(56, 129, 238, .7), rgb(94, 181, 240));
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
+    margin-top: 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
